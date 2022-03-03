@@ -17,9 +17,9 @@ body,
     width: 100px;
     height: 100px;
 }
-.midle{
+.center{
     align-self: center;
 }
-.down{
+.end{
     align-self: flex-end;
 }
