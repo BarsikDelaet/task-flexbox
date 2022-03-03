@@ -4,3 +4,22 @@ body,
     height: 100%;
     margin: 0;
 }
+.flex-conteiner{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.flex-conteiner__circle{
+    border-radius: 50%;
+    background: #DAA520;
+    width: 100px;
+    height: 100px;
+}
+.midle{
+    align-self: center;
+}
+.down{
+    align-self: flex-end;
+}
