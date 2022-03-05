@@ -4,22 +4,23 @@ body,
     height: 100%;
     margin: 0;
 }
-.flex-conteiner{
+.flex-conteiner {
     display: flex;
     width: 700px;
     height: 300px;
     justify-content: space-between;
 }
-
-.flex-conteiner__circle{
+div {
     border-radius: 50%;
-    background: #DAA520;
+    background: #daa520;
     width: 100px;
     height: 100px;
 }
-.center{
+
+div:nth-child(even) {
     align-self: center;
 }
-.end{
+
+div:nth-child(3) {
     align-self: flex-end;
 }
